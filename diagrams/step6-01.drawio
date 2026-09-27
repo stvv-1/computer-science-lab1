@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="AJQO6EH8bQMB-q1XG-pt">
+    <mxGraphModel dx="1099" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-34" edge="1" parent="1" source="Fh7XYoVtJX5YoNDXiWYI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fh7XYoVtJX5YoNDXiWYI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-35" connectable="0" parent="Fh7XYoVtJX5YoNDXiWYI-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Обрабатывает&lt;div&gt;действие&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0035" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Интерфейс&amp;nbsp;&lt;div&gt;поиска/навигации&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Пользователь" vertex="1">
+          <mxGeometry height="60" width="30" x="30" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fh7XYoVtJX5YoNDXiWYI-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="400" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-6" connectable="0" parent="Fh7XYoVtJX5YoNDXiWYI-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="строит маршрут" vertex="1">
+          <mxGeometry relative="1" x="-0.318" y="5" as="geometry">
+            <mxPoint x="14" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-36" edge="1" parent="1" source="Fh7XYoVtJX5YoNDXiWYI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Fh7XYoVtJX5YoNDXiWYI-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="615.03" />
+              <mxPoint x="140" y="415.03" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-37" connectable="0" parent="Fh7XYoVtJX5YoNDXiWYI-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="обновляет&lt;div&gt;карту (WebGL)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0346" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-39" edge="1" parent="1" source="Fh7XYoVtJX5YoNDXiWYI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fh7XYoVtJX5YoNDXiWYI-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-40" connectable="0" parent="Fh7XYoVtJX5YoNDXiWYI-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="отправляет&amp;nbsp;&lt;div&gt;GET-запрос&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0266" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="JavaScript&amp;nbsp;&lt;div&gt;(Движок карт)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-41" edge="1" parent="1" source="Fh7XYoVtJX5YoNDXiWYI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Fh7XYoVtJX5YoNDXiWYI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-42" connectable="0" parent="Fh7XYoVtJX5YoNDXiWYI-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="возвращает&amp;nbsp;&lt;div&gt;JSON-координаты&amp;nbsp;&lt;/div&gt;&lt;div&gt;пути&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3988" y="1" as="geometry">
+            <mxPoint y="61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-44" edge="1" parent="1" source="Fh7XYoVtJX5YoNDXiWYI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fh7XYoVtJX5YoNDXiWYI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-45" connectable="0" parent="Fh7XYoVtJX5YoNDXiWYI-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="запрашивает&amp;nbsp;&lt;div&gt;граф и пробки&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0428" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API/Сервер" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-46" edge="1" parent="1" source="Fh7XYoVtJX5YoNDXiWYI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Fh7XYoVtJX5YoNDXiWYI-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="400" />
+              <mxPoint x="750" y="500" />
+              <mxPoint x="555" y="500" />
+              <mxPoint x="555" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-47" connectable="0" parent="Fh7XYoVtJX5YoNDXiWYI-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="возвращает гео-точки" vertex="1">
+          <mxGeometry relative="1" x="-0.0534" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fh7XYoVtJX5YoNDXiWYI-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Хранилище" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
